@@ -1366,3 +1366,22 @@
   color: var(--orange);
   opacity: 0.7;
 }
+/* ===== FOOTER — Developer credit ===== */
+.footer__dev {
+  border-top: 1px solid rgba(189,209,214,0.08);
+  margin-top: 16px;
+  padding-top: 14px;
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.08em;
+  color: rgba(189,209,214,0.25);
+  text-align: center;
+}
+.footer__dev a {
+  color: rgba(189,209,214,0.25);
+  text-decoration: none;
+  transition: color var(--transition);
+}
+.footer__dev a:hover {
+  color: var(--orange);
+}
